@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laia Denise Franco | Portfolio</title>
+    <meta name="description" content="Portfolio de Laia Denise Franco - Desarrolladora Full Stack y Estudiante de Data Science">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">LDF<span class="dot">.</span></div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Inicio</a></li>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#education">Educación</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-particles" id="particles-js"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="greeting">Hola, soy</p>
+                <h1 class="glitch" data-text="Laia Denise Franco">Laia Denise Franco</h1>
+                <h2 class="typing-text">Desarrolladora <span class="highlight">Full Stack</span> & Estudiante de <span class="highlight">Data Science</span></h2>
+                <p class="summary">Analítica y metódica. Busco desarrollarme en roles donde la tecnología sea el centro del trabajo.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn primary">Ver Proyectos <i class="fas fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn secondary">Contactar <i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="profile-glow"></div>
+                <!-- Reemplazar src con la ruta real a la foto de Laia -->
+                <div class="image-wrapper">
+                    <img src="profile.jpg" alt="Laia Denise Franco" class="profile-img" onerror="this.src='https://via.placeholder.com/400x400/1a1a2e/0f3460?text=LDF'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <h2 class="section-title">Sobre Mí<span class="dot">.</span></h2>
+        <div class="about-container">
+            <div class="about-text glass-card">
+                <i class="fas fa-quote-left quote-icon"></i>
+                <p>Estudiante avanzada de la carrera de Programacion con orientacion en Data Science y desarrollo full stack. Soy analitica y metodica, con experiencia en atencion al cliente que me dio una perspectiva practica orientada al usuario. Puedo aportar conocimientos en desarrollo de software y analisis de datos aplicados a proyectos reales. Busco desarrollarme en roles donde la tecnologia sea el centro del trabajo.</p>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Buenos Aires, Argentina</span>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/LaiaFranco" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/laia-franco-40414a28b" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="experience-timeline">
+                <h3 class="subsection-title"><i class="fas fa-briefcase"></i> Experiencia</h3>
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Marzo 2024 - Enero 2026</div>
+                    <h4>Atención al Cliente</h4>
+                    <h5>Coto CICSA</h5>
+                    <p>Gestión de transacciones mediante sistemas POS, validación y control de datos, resolución de incidencias en tiempo real.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding">
+        <h2 class="section-title">Tech Stack<span class="dot">.</span></h2>
+        <div class="skills-grid">
+            
+            <!-- Frontend -->
+            <div class="skill-category glass-card" data-tilt>
+                <h3><i class="fas fa-laptop-code"></i> Front-End</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag"><i class="fab fa-html5"></i> HTML5</span>
+                    <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+                    <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                    <span class="skill-tag"><i class="fab fa-react"></i> ReactJS</span>
+                </div>
+            </div>
+
+            <!-- Backend -->
+            <div class="skill-category glass-card" data-tilt>
+                <h3><i class="fas fa-server"></i> Back-End</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+                    <span class="skill-tag"><i class="fab fa-node-js"></i> Node.js</span>
+                    <span class="skill-tag"><i class="fas fa-code"></i> C++</span>
+                    <span class="skill-tag"><i class="fas fa-code"></i> C#</span>
+                    <span class="skill-tag"><i class="fas fa-cube"></i> .NET</span>
+                    <span class="skill-tag"><i class="fas fa-database"></i> MongoDB</span>
+                    <span class="skill-tag"><i class="fas fa-database"></i> SQL Server</span>
+                </div>
+            </div>
+
+            <!-- Tools & Others -->
+            <div class="skill-category glass-card" data-tilt>
+                <h3><i class="fas fa-tools"></i> Herramientas</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag"><i class="fab fa-github"></i> GitHub</span>
+                    <span class="skill-tag"><i class="fas fa-chart-bar"></i> Power BI</span>
+                    <span class="skill-tag"><i class="fas fa-file-code"></i> VS Code</span>
+                    <span class="skill-tag"><i class="fas fa-code"></i> CodeBlocks</span>
+                    <span class="skill-tag"><i class="fab fa-microsoft"></i> MS Office</span>
+                </div>
+            </div>
+            <!-- End Tools -->
+        </div>
+
+        <h2 class="section-title" style="margin-top: 4rem;">Soft Skills<span class="dot">.</span></h2>
+        <div class="skills-grid">
+            <div class="skill-category glass-card soft-skills-card" data-tilt>
+                <ul class="soft-skills-list">
+                    <li><i class="fas fa-check-circle"></i> Capacidad analítica y orientación a resultados</li>
+                    <li><i class="fas fa-check-circle"></i> Resolución de problemas</li>
+                    <li><i class="fas fa-check-circle"></i> Comunicación efectiva con equipos técnicos y administrativos</li>
+                    <li><i class="fas fa-check-circle"></i> Trabajo en equipo</li>
+                    <li><i class="fas fa-check-circle"></i> Adaptabilidad a entornos dinámicos</li>
+                    <li><i class="fas fa-check-circle"></i> Organización y gestión del tiempo</li>
+                    <li><i class="fas fa-check-circle"></i> Atención al detalle y enfoque en la mejora continua</li>
+                    <li><i class="fas fa-check-circle"></i> Responsabilidad y compromiso con objetivos</li>
+                    <li><i class="fas fa-check-circle"></i> Aprendizaje continuo</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <h2 class="section-title">Proyectos<span class="dot">.</span></h2>
+        <div class="projects-grid">
+            
+            <div class="project-card glass-card">
+                <div class="project-content">
+                    <div class="project-header">
+                        <i class="far fa-folder-open folder-icon"></i>
+                        <a href="https://github.com/LaiaFranco/Mini-punto-de-venta.git" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <h3 class="project-title">Mini Punto de Venta</h3>
+                    <p class="project-desc">Sistema backend de punto de venta desarrollado para la gestión de productos y ventas. Implementa POO y persistencia de datos mediante archivos.</p>
+                    <div class="project-tech">
+                        <span>C++</span>
+                        <span>VS Code</span>
+                    </div>
+                    <div class="project-year">UTN - 2025</div>
+                </div>
+            </div>
+
+            <div class="project-card glass-card">
+                <div class="project-content">
+                    <div class="project-header">
+                        <i class="far fa-folder-open folder-icon"></i>
+                        <a href="https://github.com/LaiaFranco/Tp-winform-equipo-8B.git" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <h3 class="project-title">Sistema de Gestión de Artículos</h3>
+                    <p class="project-desc">Aplicación de escritorio para administrar un catálogo comercial con persistencia en base de datos. Incluye validaciones, búsquedas y ABM de artículos.</p>
+                    <div class="project-tech">
+                        <span>C#</span>
+                        <span>WinForms</span>
+                        <span>SQL Server</span>
+                    </div>
+                    <div class="project-year">UTN - 2024</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Education & Certifications Section -->
+    <section id="education" class="education section-padding">
+        <h2 class="section-title">Educación<span class="dot">.</span></h2>
+        
+        <div class="education-grid">
+            <div class="edu-column">
+                <h3 class="subsection-title"><i class="fas fa-graduation-cap"></i> Formación Académica</h3>
+                
+                <div class="edu-item glass-card">
+                    <div class="edu-year">2026 - en curso</div>
+                    <h4>Lic. en Ciencias de Datos</h4>
+                    <h5>Universidad de Buenos Aires</h5>
+                </div>
+                
+                <div class="edu-item glass-card">
+                    <div class="edu-year">2023 - en curso</div>
+                    <h4>Tecnicatura Universitaria en Programación</h4>
+                    <h5>Universidad Tecnológica Nacional</h5>
+                </div>
+            </div>
+
+            <div class="edu-column">
+                <h3 class="subsection-title"><i class="fas fa-certificate"></i> Cursos y Capacitaciones</h3>
+                
+                <div class="edu-item glass-card">
+                    <div class="edu-year">2026</div>
+                    <h4>Desarrollo Web Full Stack</h4>
+                    <h5>JP Morgan, Fundación Pescar, Educacion IT (219hs)</h5>
+                    <p class="edu-details">HTML5, CSS3, JS, Git, MongoDB, Node JS, ReactJS, POO</p>
+                </div>
+                
+                <div class="edu-item glass-card">
+                    <div class="edu-year">2026</div>
+                    <h4>Data Analytics & Visualización de Datos</h4>
+                    <h5>Educacion IT (18hs)</h5>
+                    <p class="edu-details">Power BI, dashboards, interpretación de datos</p>
+                </div>
+
+                <div class="edu-item glass-card">
+                    <div class="edu-year">2019</div>
+                    <h4>Excel Fundamentos</h4>
+                    <h5>UTN</h5>
+                    <p class="edu-details">Formación en funciones básicas e intermedias, manejo de hojas de cálculo, fórmulas, organización de datos y creación de tablas, gráficos y reportes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <h2 class="section-title">Contacto<span class="dot">.</span></h2>
+        <div class="contact-form-container glass-card" data-tilt data-tilt-max="2" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.1">
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" required placeholder="tucorreo@ejemplo.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="¿En qué te puedo ayudar?"></textarea>
+                </div>
+                <button type="submit" class="btn primary submit-btn">Enviar Mensaje <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h2>Laia Denise Franco</h2>
+            <p>Construyendo el futuro con código y datos.</p>
+            <div class="social-links">
+                <a href="https://github.com/LaiaFranco" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/laia-franco-40414a28b" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p class="copyright">&copy; 2026 Laia Denise Franco. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Vanilla Tilt -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
